@@ -21,7 +21,7 @@ superbowls <- read.csv('superbowl.csv')
 
 superbowls %>%
   ggplot(aes(x = SB , y = WinnerPts)) +
-  geom_col()
+  geom_point()
 
 # Next we will group the winning scores in a histogram.
 
